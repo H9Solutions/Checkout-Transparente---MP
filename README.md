@@ -12,7 +12,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [Express.js](https://expressjs.com/)
 
-<p>Créditos especiais <a href="https://medium.com/integra%C3%A7%C3%A3o-de-pagamentos-com-mercado-pago-e-react/integra%C3%A7%C3%A3o-de-pagamentos-com-react-native-node-js-e-smartcheckout-do-mercado-pago-64eedbb0eae9">@Alisson Allebrand</a></p>
+<p>Créditos especiais <a target="_blank" href="https://medium.com/integra%C3%A7%C3%A3o-de-pagamentos-com-mercado-pago-e-react/integra%C3%A7%C3%A3o-de-pagamentos-com-react-native-node-js-e-smartcheckout-do-mercado-pago-64eedbb0eae9">@Alisson Allebrand</a></p>
 
 <h2>Install instructions</h2>
 <h4>Getting Started</h4>
@@ -24,9 +24,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <h4>Start your app</h4>
 <ul>
-  <li>Execute <code>yarn start</code> ou <code>npm start</code> para inicializar o projeto.</li>
+  <li>
+    Abra o arquivo <code>/configuracoes.js</code> e insira seu token do mercado pago. 
+    (Vale ressaltar que para a opção sandbox: true, é necessário um token do tipo sandbox.)
+  </li>
+  <li>Execute <code>yarn start</code> ou <code>npm start</code> para inicializar o projeto. A aplicação estará rodando por padrão na porta 3000. Edite o arquivo <code>/index.js</code> para personalizar.</li>
+  
 </ul>
-
-<p>
-  A aplicação estará rodando por padrão na porta 3000. Edite o arquivo <code>/index.js</code> para personalizar. 
-</p>
