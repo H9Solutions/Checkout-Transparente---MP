@@ -30,7 +30,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
   <li>
     Em <code>/configuracoes.js</code> insira seu <code>sandbox</code>. Valor <code>true</code> em ambiente de testes ou <code>false</code> em produção.
   </li>
-  
-  <li>Execute <code>yarn start</code> ou <code>npm start</code> para inicializar o projeto. A aplicação estará rodando por padrão na porta 3000. Edite o arquivo <code>/index.js</code> para personalizar.</li>
+   <li>
+    Em <code>/configuracoes.js</code> insira seu <code>api_port</code>. Porta 3000 por padrão. 
+  </li>
+  <li>Execute <code>yarn start</code> ou <code>npm start</code> para inicializar o projeto.</li>
   
 </ul>
