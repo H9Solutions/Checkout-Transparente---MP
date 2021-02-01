@@ -48,6 +48,16 @@ Faça uma requisição GET para <code>http://localhost:3000/payments/checkout/:i
 
 
 <h4> Exemplo: </h4>
-<code>http://localhost:3000/payments/checkout/1/paulo@gmail.com/mascarasdegel/12.50</code>
+<code>http://localhost:3000/payments/checkout/1/paulo@gmail.com/mascarasdegel/12.50</code><br><br>
 
 <img src="./assets/checkout.jpeg">
+
+<br><br>
+
+Após preenchimento dos dados, o usuário será retornado com um dos 3 status: &nbsp;
+<code>success</code>,&nbsp; 
+<code>pending</code>,&nbsp;
+<code>failure</code>.
+
+<br><br>
+<p>Para definir a rota de cada status, acesse <code>/src/controllers/paymentsController.js</code> e altere o objeto <code>purchaseOrder > back_urls</code>.
