@@ -27,8 +27,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
   <li>
     Em <code>/configuracoes.js</code> insira seu <code>access_token</code> do mercado pago. 
   </li>
-  <li><code>sandbox: true</code>, caso esteja em um ambiente de testes.</li>
-  <li><code>sandbox: false</code>, em produção.</li>
+  <li>
+    Em <code>/configuracoes.js</code> insira seu <code>sandbox</code>. <code>true</code> em ambiente de testes. <code>false</code> em produção.
+  </li>
   
   <li>Execute <code>yarn start</code> ou <code>npm start</code> para inicializar o projeto. A aplicação estará rodando por padrão na porta 3000. Edite o arquivo <code>/index.js</code> para personalizar.</li>
   
