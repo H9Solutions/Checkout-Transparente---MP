@@ -49,3 +49,5 @@ Faça uma requisição GET para <code>http://localhost:3000/payments/checkout/:i
 
 <h4> Exemplo: </h4>
 <code>http://localhost:3000/payments/checkout/1/paulo@gmail.com/mascarasdegel/12.50</code>
+
+<img src="./assets/checkout.jpeg">
