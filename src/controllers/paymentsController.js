@@ -1,18 +1,16 @@
 const MercadoPago = require('mercadopago');
-
+const {sandbox, access_token} = require("../../configuracoes.js")
 const getFullUrl = (req) =>{
     const url = req.protocol + '://' + req.get('host');
     return url;
 }
-const MP_TOKEN_HERE = "";
-
 
 module.exports = {
     async checkout(req, res){
 
         MercadoPago.configure({
-            sandbox: true,
-            access_token: MP_TOKEN_HERE
+            sandbox: sandbox,
+            access_token: access_token
         });
 
         const { id, email, description, amount } = req.params;
