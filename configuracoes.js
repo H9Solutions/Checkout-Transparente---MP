@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 
   /*Porta da API */
   api_port: 3000,

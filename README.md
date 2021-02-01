@@ -36,3 +36,16 @@ As seguintes ferramentas foram usadas na construção do projeto:
   <li>Execute <code>yarn start</code> ou <code>npm start</code> para inicializar o projeto.</li>
   
 </ul>
+
+
+<h4>Testando aplicação</h4>
+Faça uma requisição GET para <code>http://localhost:3000/payments/checkout/:id/:email/:description/:amount</code> onde: <br>
+
+<code>id: number</code> - Número da transação (Você mesmo define) <br>
+<code>email: string</code> - Email do comprador (Não poderá ser o mesmo do dono do TOKEN)<br>
+<code>description: string</code> - Descrição da compra<br>
+<code>ammount: number</code> - Valor da compra;<br><br>
+
+
+<h4> Exemplo: </h4>
+<code>http://localhost:3000/payments/checkout/1/paulo@gmail.com/mascarasdegel/12.50</code>
