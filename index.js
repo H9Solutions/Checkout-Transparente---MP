@@ -4,6 +4,8 @@ const cors = require('cors');
 const engines = require('consolidate');
 const path = require('path');
 
+const {api_port} = require("./configuracoes.js")
+ 
 //Routes
 const paymentsRoute = require('./src/routes/paymentsRoute');
 
@@ -22,7 +24,7 @@ app.set("view engine", "ejs");
 //Payments route
 app.use('/payments',paymentsRoute);
 
-app.listen(3000, function(err){
+app.listen(api_port || 3000, function(err){
     if(err) console.error(err);
-    console.log(`API INICIADA NA PORTA ${3000}`) 
+    console.log(`API INICIADA NA PORTA ${api_port || 3000}`) 
 });
