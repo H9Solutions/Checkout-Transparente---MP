@@ -12,6 +12,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [Express.js](https://expressjs.com/)
 
+<p>Créditos especiais <a href="https://medium.com/integra%C3%A7%C3%A3o-de-pagamentos-com-mercado-pago-e-react/integra%C3%A7%C3%A3o-de-pagamentos-com-react-native-node-js-e-smartcheckout-do-mercado-pago-64eedbb0eae9">@Alisson Allebrand</a></p>
+
 <h2>Install instructions</h2>
 <h4>Getting Started</h4>
 <ul>
