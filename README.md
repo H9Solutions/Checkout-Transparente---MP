@@ -10,4 +10,13 @@
 <ul>
   <li>1.1) <code>git clone https://github.com/H9Solutions/CheckoutTransparente</code></li>
   <li>1.2) <code>cd CheckoutTransparente</code></li>
+  <li>1.2) <code>yarn install</code> ou <code>npm install</code></li>
 <ul>
+<h4>Start your app</h4>
+<ul>
+  <li>1.1) <code>yarn start</code> ou <code>npm start</code></li>
+<ul>
+
+<p>
+  A aplicação estará rodando por padrão na porta 3000. Edite o arquivo <code>/index.js</code> para personalizar. 
+</p>
